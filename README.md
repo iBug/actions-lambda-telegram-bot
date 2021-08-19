@@ -1,8 +1,6 @@
-# GitHub Actions - AWS Lambda deploy template
+# Telegram bot on AWS Lambda with GitHub Actions deploy template
 
-This is a template repository for quickly creating an Actions-deployed AWS Lambda function.
-
-Every push to the master branch will be automatically deployed to AWS.
+A webhook-based Telegram bot, every push to the master branch automatically deployed to AWS Lambda with GitHub Actions
 
 ## Setup
 
@@ -30,7 +28,7 @@ Go to [AWS IAM console](https://console.aws.amazon.com/iam/home) and create a ne
 
 Also on the IAM console, create a new user and attach the policy from the above step. Create a pair of access keys for the new user.
 
-[Create a new repo](https://github.com/iBug/actions-lambda-python/generate) from this template. Go to the Settings tab of your new repository and add the following secrets:
+[Create a new repo](https://github.com/iBug/actions-lambda-telegram-bot/generate) from this template. Go to the Settings tab of your new repository and add the following secrets:
 
 | Name | Description |
 | :--: | :---------: |
